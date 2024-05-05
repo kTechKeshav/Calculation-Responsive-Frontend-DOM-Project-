@@ -49,7 +49,7 @@ divbtn.addEventListener("click", () => {
             scr.innerHTML = "❌";
       }else{
             let result = inp1 / inp2;
-            result = result.toFixed(2)
+            result = result.toFixed(3)
             scr.innerHTML = result + "";
       }
   }
